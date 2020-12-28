@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import timelineData from './data/timeline.json';
 import Timeline from './components/Timeline';
-import TimelineEvent from './components/TimelineEvent';
 
 // Test Post
 // const events = [
