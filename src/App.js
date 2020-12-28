@@ -4,13 +4,14 @@ import timelineData from './data/timeline.json';
 import Timeline from './components/Timeline';
 import TimelineEvent from './components/TimelineEvent';
 
-const events = [
-  {
-    person: 'Nica Cordeiro',
-    status: 'Fabulous',
-    timeStamp: '2016-04-13T11:11:03Z'
-  }
-]
+// Test Post
+// const events = [
+//   {
+//     person: 'Nica Cordeiro',
+//     status: 'Fabulous',
+//     timeStamp: '2016-04-13T11:11:03Z'
+//   }
+// ]
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
         <h1 className="App-title">Ada Lovelace's Social Media Feed</h1>
       </header>
       <main className="App-main">
-        <Timeline events={events} />
+        <Timeline events={timelineData.events} />
       </main>
     </div>
   );
