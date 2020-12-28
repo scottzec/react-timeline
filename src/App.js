@@ -14,7 +14,7 @@ function App() {
         <h1 className="App-title">Ada Lovelace's Social Media Feed</h1>
       </header>
       <main className="App-main">
-        <TimelineEvent person="Nica Cordeiro" status="Fabulous" timestamp="2018-04-13T11:11:03Z" />
+        <TimelineEvent person="Nica Cordeiro" status="Fabulous" timeStamp="2016-04-13T11:11:03Z" />
       </main>
     </div>
   );
